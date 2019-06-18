@@ -1,0 +1,35 @@
+/* selector {
+  property-name: value;
+} */
+body {
+  text-align: center;
+}
+
+h1 {
+font-size: 100px;
+text-decoration: underline;
+letter-spacing: 4px;
+color: rebeccapurple;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+font-size: 24px;
+margin-bottom: 24px;
+text-transform: uppercase;
+}
+
+a {
+  color: rebeccapurple;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 1s ease;
+}
+
+a:hover {
+  color: tomato;
+}
