@@ -1,0 +1,20 @@
+body {
+    background-color: tomato;
+    color: white;
+}
+h1 {
+  font-fmaily: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 48vh;
+}
+a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 5px solid white;
+}
+a: hover {
+  color: black;
+  border-color: black;
+}

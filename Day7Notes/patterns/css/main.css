@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+#main-container {
+width: 150vw;
+margin: -100px -5vw;
+}
+
+.piece1, .piece2, .piece3, .piece4 {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin: -13px;
+  opacity: .4;
+  border-radius: 50%;
+}
+.piece1 {
+  width: 0;
+  height: 0;
+  transform: rotate(15deg);
+  border-left: 200px;
+  background-color: dodgerblue;
+  height: 200px;
+
+}
+.piece2 {
+  background-color: tomato;
+  transform: rotate(30deg);
+
+}
+.piece3{
+  background-color: red;
+
+}
+.piece4 {
+  background-color: rebeccapurple;
+
+}

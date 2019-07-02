@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+#main-container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+h1 {
+  font-family: 'Bowlby One', cursive;
+}
+
+p {
+  font-family: 'Krona One', sans-serif;
+}
