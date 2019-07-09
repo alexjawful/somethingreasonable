@@ -3,13 +3,15 @@
 } */
 body {
   text-align: center;
+  background-color: black;
 }
 
 h1 {
-font-size: 100px;
+font: bold;
+font-size: 85px;
 text-decoration: underline;
 letter-spacing: 4px;
-color: rebeccapurple;
+color: goldenrod;
 }
 
 ul {
@@ -18,18 +20,18 @@ padding: 0;
 }
 
 li {
-font-size: 24px;
+font-size: 20px;
 margin-bottom: 24px;
 text-transform: uppercase;
 }
 
 a {
-  color: rebeccapurple;
+  color: goldenrod;
   text-decoration: none;
   cursor: pointer;
   transition: color 1s ease;
 }
 
 a:hover {
-  color: tomato;
+  color: grey;
 }
