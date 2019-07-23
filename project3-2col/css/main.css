@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#main-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.hero {
+  background: url('../img/Puffins-3.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+.page-title {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+}
+.col1 {
+  width: calc(50% - 50px);
+  float: left;
+  margin: 0 50px 0 0;
+}
+.col2 {
+  width: calc(50% - 50px);
+  background-color: #666666;
+  float: left;
+  margin: 0 0 0 50px;
+  padding: 25px;
+}
+img {
+  width: 100%;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'DM Serif Display', serif;
+}
+h2, h3, h4, h5, h6 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: 'DM Serif Text', serif;
+}
+@media only screen and (max-width: 1024px) {
+  #main-container {
+    width: 100vw;
+  }
+  .col1 {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .col1, .col2 {
+    width: 100%;
+    margin: 0;
+  }
+}
